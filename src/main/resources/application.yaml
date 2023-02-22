@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: # fill by your env
+        access-key:
+        secret-key:
+        namespace:
+        group:
+        import-check:
+          enabled: false
+server:
+  port: 8888
